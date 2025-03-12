@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A portfolio showcasing my web development and UX/UI projects.">
     <title>My Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="portfolio.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header with Navigation -->
+    <input type="checkbox" id="menu_btn">
+    <label class="menu-btn" for="menu_btn">
+        <i class="fa-solid fa-bars"></i>
+    </label>
     <header>
-        <h1>My Portfolio</h1>
+        <div class="con">
+            <h1>My Portfolio</h1>
+            <h3>HTML + CSS</h3>
+        </div>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="wrapper">
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
