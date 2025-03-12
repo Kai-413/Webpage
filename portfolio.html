@@ -1,46 +1,59 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-        <title>Menu</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> 
-        <link rel="stylesheet" href="portfolio.css">
-    </head>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio showcasing my web development and UX/UI projects.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="script.js" defer></script>
+</head>
 <body>
+    <!-- Header with Navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
     <section id="welcome-section">
-    <input type="checkbox" id="menu_btn">
-    <label class="menu-btn" for="menu_btn">
-        <i class="fa-solid fa-bars"></i>
-    </label>
-    <div class="con">
-        <h1>Portfolio</h1>
-        <a id="profile-link" target="_blank"><h3>HTML + CSS</h3></a>
-    </div>
-    <div class="wrapper">
-        <ul class="menu" id="navbar">
-            <li><a href="#webpage">Webpage</a></li>
-            <li><a href="#bubble">About Us</a></li>
-            <li><a href="#glass">Our Services</a></li>
-            <li><a href="#spotlight">Cases</a></li>
-        </ul>
-    </div>
+        <h2>Welcome to my Portfolio</h2>
+        <p>I'm a junior UX/UI designer whith a background in Psychology and HCI. Explore my projects below.</p>
     </section>
+
+    <!-- Projects Section -->
     <section id="projects">
-    <div class="project-tile" id="webpage">
-        <a href="webpage.html">Webpage</a>
-    </div>
-    <div class="project-tile" id="bubble">
-        <a href="Bubble/bubble.html">Bubble Animation</a>
-    </div>
-    <div class="project-tile" id="glass">
-        <a href="Glass Plates/Glass.html">Glass Display Plates</a>
-    </div>
-    <div class="project-tile" id="spotlight">
-        <a href="Spotlight/spotlight.html">Spotlight Display</a>
-    </div>
-    </section>  
+        <h2>Projects</h2>
+        <div class="project-tile">
+            <a href="webpage.html">Webpage</a>
+        </div>
+        <div class="project-tile">
+            <a href="Bubble/bubble.html">Bubble Animation</a>
+        </div>
+        <div class="project-tile">
+            <a href="Glass Plates/Glass.html">Glass Display Plates</a>
+        </div>
+        <div class="project-tile">
+            <a href="Spotlight/spotlight.html">Spotlight Display</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm passionate about UX/UI design and front-end development. I always put the user at the heart of every design.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: ada.kaiyuanyang@gmail.com</p>
+    </section>
 </body>
 </html>
